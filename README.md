@@ -10,6 +10,8 @@ Displays status and Navball on 128x64px OLED.
 
 ![KerbalControl](KerbalControl.jpg)
 
+[Video here](http://youtu.be/haSRLkled_A)
+
 Uses a tonne of floats in the 3d routine which are probably
 over kill considering the resolution of the OLED that we end up rendering to. 	But the PIC had flash/RAM and CPU to spare so why not for now.
 Also uses printf to display floats which could probably be avoided
